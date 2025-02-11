@@ -1,0 +1,14 @@
+E:\.net cources\e-commerce App\Development\skinet\core\bin\Debug\net8.0\core.deps.json
+E:\.net cources\e-commerce App\Development\skinet\core\bin\Debug\net8.0\core.runtimeconfig.json
+E:\.net cources\e-commerce App\Development\skinet\core\bin\Debug\net8.0\core.dll
+E:\.net cources\e-commerce App\Development\skinet\core\bin\Debug\net8.0\core.pdb
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.csproj.AssemblyReference.cache
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.AssemblyInfoInputs.cache
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.AssemblyInfo.cs
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.csproj.CoreCompileInputs.cache
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.dll
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\refint\core.dll
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.pdb
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.genruntimeconfig.cache
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\ref\core.dll
