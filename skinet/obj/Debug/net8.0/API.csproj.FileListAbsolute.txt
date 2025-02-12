@@ -284,3 +284,4 @@ E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\refint
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.pdb
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\ref\API.dll
+E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.sourcelink.json

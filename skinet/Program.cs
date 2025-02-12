@@ -1,3 +1,4 @@
+using core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -5,7 +6,7 @@ namespace skinet
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ namespace skinet
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,13 +34,19 @@ namespace skinet
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
-
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<ApplicationDbContext>();
+                var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+                await context.Database.MigrateAsync();
+                await ApplicationDbContextSeed.SeedAsync(context, loggerFactory);
+            }
             app.MapControllers();
 
+            
+
             app.Run();
-
-
         }
     }
 }

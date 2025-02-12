@@ -12,3 +12,4 @@ E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\refint\c
 E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.pdb
 E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.genruntimeconfig.cache
 E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\ref\core.dll
+E:\.net cources\e-commerce App\Development\skinet\core\obj\Debug\net8.0\core.sourcelink.json
