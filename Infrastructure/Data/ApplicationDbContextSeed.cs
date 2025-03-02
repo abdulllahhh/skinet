@@ -16,26 +16,7 @@ namespace Infrastructure.Data
         {
             try
             {
-                /*if (!context.Brands.Any())
-                {
-                    var brandsData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\brands.json");
-                    var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
-                    foreach (var item in brands)
-                    {
-                        context.Brands.Add(item);
-                    }
-                    await context.SaveChangesAsync();
-                }
-                if (!context.Types.Any())
-                {
-                    var TypesData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\types.json");
-                    var types = JsonSerializer.Deserialize<List<ProductType>>(TypesData);
-                    foreach (var item in types)
-                    {
-                        context.Types.Add(item);
-                    }
-                    await context.SaveChangesAsync();
-                }*/
+               
                 if (!context.Products.Any())
                 {
                     var ProductsData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\products.json");

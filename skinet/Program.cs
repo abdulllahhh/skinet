@@ -1,6 +1,9 @@
+using API.Helpers;
 using core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Data.Repos;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace skinet
 {
@@ -16,8 +19,9 @@ namespace skinet
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(typeof(MappingProfiles));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -42,9 +46,10 @@ namespace skinet
                 await context.Database.MigrateAsync();
                 await ApplicationDbContextSeed.SeedAsync(context, loggerFactory);
             }
-            app.MapControllers();
 
-            
+            app.MapControllers();
+            app.UseStaticFiles(); 
+
 
             app.Run();
         }

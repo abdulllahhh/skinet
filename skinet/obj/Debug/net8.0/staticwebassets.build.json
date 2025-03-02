@@ -1,12 +1,1876 @@
 {
   "Version": 1,
-  "Hash": "A5c6GKfqW+kOYxX7+ezU9WKq8ts6/mK8f4alHUBjdmk=",
+  "Hash": "eAoF9hp8kpnpyCsKJ9wfsyUZXab4dkSOZgjjKJztuqo=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/boot-ang1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "frtmm817eo",
+      "Integrity": "1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/boot-ang2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2b72r3nnt",
+      "Integrity": "M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/boot-core1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "owma62f65w",
+      "Integrity": "eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/boot-core2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "et6a9ksqoo",
+      "Integrity": "/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-redis1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/boot-redis1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w9hxokgnuo",
+      "Integrity": "tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/glove-code1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfxg5rk1bq",
+      "Integrity": "S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/glove-code2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r6vgnq84s8",
+      "Integrity": "HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/glove-react1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fll4p0n7rr",
+      "Integrity": "Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/glove-react2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pnwp3ppbru",
+      "Integrity": "a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-core1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/hat-core1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i0uvoezabx",
+      "Integrity": "TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/hat-react1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hh4ccoh25u",
+      "Integrity": "tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/hat-react2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mbw62g7yl7",
+      "Integrity": "IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-ang1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwbzmgtfei",
+      "Integrity": "ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-ang2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3w3sxuihj",
+      "Integrity": "wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-core1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sgdiotq3ie",
+      "Integrity": "rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-core2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0l58ukt1bp",
+      "Integrity": "vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-react1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-react1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v6om9glro4",
+      "Integrity": "CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ts1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-ts1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uty9dayw0j",
+      "Integrity": "ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/products/boot-ang1.frtmm817eo.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "frtmm817eo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-ang1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-ang1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-ang2.l2b72r3nnt.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2b72r3nnt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-ang2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-ang2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-core1.owma62f65w.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "owma62f65w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-core1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-core1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-core2.et6a9ksqoo.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55779"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "et6a9ksqoo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-core2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-core2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55779"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-redis1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-redis1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-redis1.w9hxokgnuo.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-redis1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9hxokgnuo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-redis1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-code1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-code1.vfxg5rk1bq.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfxg5rk1bq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-code1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-code2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-code2.r6vgnq84s8.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r6vgnq84s8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-code2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react1.fll4p0n7rr.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fll4p0n7rr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-react1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react2.pnwp3ppbru.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pnwp3ppbru"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-react2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-core1.i0uvoezabx.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i0uvoezabx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/hat-core1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-core1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-react1.hh4ccoh25u.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hh4ccoh25u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/hat-react1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-react1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-react2.mbw62g7yl7.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mbw62g7yl7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/hat-react2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-react2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang1.gwbzmgtfei.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwbzmgtfei"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-ang1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang2.h3w3sxuihj.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3w3sxuihj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-ang2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-core1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-core1.sgdiotq3ie.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgdiotq3ie"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-core1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-core2.0l58ukt1bp.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0l58ukt1bp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-core2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-core2.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-react1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-react1.v6om9glro4.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v6om9glro4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-react1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ts1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ts1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ts1.uty9dayw0j.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ts1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uty9dayw0j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-ts1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU="
+        }
+      ]
+    }
+  ]
 }

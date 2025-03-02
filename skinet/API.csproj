@@ -16,6 +16,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <projectreference Include="..\Core\Core.csproj" />
     <projectreference Include="..\Infrastructure\Infrastructure.csproj" />
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\.DS_Store" />
+    <None Include="wwwroot\images\products\.DS_Store" />
   </ItemGroup>
 
 </Project>

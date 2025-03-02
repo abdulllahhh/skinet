@@ -285,3 +285,5 @@ E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.pd
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\ref\API.dll
 E:\.net cources\e-commerce App\Development\skinet\skinet\obj\Debug\net8.0\API.sourcelink.json
+E:\.net cources\e-commerce App\Development\skinet\skinet\bin\Debug\net8.0\AutoMapper.dll
+E:\.net cources\e-commerce App\Development\skinet\skinet\bin\Debug\net8.0\API.staticwebassets.runtime.json

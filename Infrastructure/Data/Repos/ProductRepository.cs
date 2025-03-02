@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data
+namespace Infrastructure.Data.Repos
 {
     public class ProductRepository : IProductRepository
     {
@@ -25,12 +25,14 @@ namespace Infrastructure.Data
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
-            return await _context.Products.Include(b => b.ProductBrand).Include(b => b.ProductBrand).FirstOrDefaultAsync(i=>i.Id==id);
+            return await _context.Products.Include(b => b.ProductBrand).Include(b => b.ProductBrand).FirstOrDefaultAsync(i => i.Id == id);
         }
 
         public async Task<IReadOnlyList<Product>> GetProductsAsync()
         {
-            return await _context.Products.Include(b => b.ProductBrand).Include(b=>b.ProductBrand).ToListAsync();
+            return await _context.Products
+                .Include(b => b.ProductBrand)
+                .Include(b => b.ProductBrand).ToListAsync();
         }
 
         public async Task<IReadOnlyList<ProductType>> GetProductTypesAsync()

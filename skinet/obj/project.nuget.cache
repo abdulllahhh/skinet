@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vPkyguoY2u8=",
+  "dgSpecHash": "ICgu6FZZH8I=",
   "success": true,
   "projectFilePath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\babda\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\babda\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\babda\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\babda\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
