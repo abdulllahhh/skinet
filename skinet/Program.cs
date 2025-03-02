@@ -1,8 +1,13 @@
+using API.Errors;
+using API.Extentions;
 using API.Helpers;
+using API.Middleware;
 using core.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Data.Repos;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using System.Linq.Expressions;
 
 namespace skinet
@@ -18,25 +23,23 @@ namespace skinet
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddScoped<IProductRepository, ProductRepository>();
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddApplicationServices(builder.Configuration);
+            
             builder.Services.AddControllers();
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerDocumentation();
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
 
+            app.UseDeveloperExceptionPage();
+            app.UseMiddleware<ExceptionMiddleware>();
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
-
+            
             app.UseAuthorization();
             using (var scope = app.Services.CreateScope())
             {
@@ -46,12 +49,13 @@ namespace skinet
                 await context.Database.MigrateAsync();
                 await ApplicationDbContextSeed.SeedAsync(context, loggerFactory);
             }
-
+            
+            app.UseSwaggerDocumentation();
             app.MapControllers();
-            app.UseStaticFiles(); 
+            app.UseStaticFiles();
 
 
-            app.Run();
-        }
+                app.Run();
+            }
     }
-}
+    }

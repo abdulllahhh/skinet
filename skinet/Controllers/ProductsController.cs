@@ -7,12 +7,13 @@ using Microsoft.EntityFrameworkCore;
 using core.Specification;
 using API.DTOs;
 using AutoMapper;
+using API.Controllers;
+using API.Errors;
 
 namespace skinet.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController : Controller
+
+    public class ProductsController : BaseApiController
     {
         private readonly IMapper _mapper;
         private readonly IGenericRepository<Product> _productRepo;
@@ -34,12 +35,16 @@ namespace skinet.Controllers
             return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products));
         }
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound )]
         public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int id)
         {
             var spec = new ProductWithTypesAndBrandsSpecification(id);
 
 
             var product = await _productRepo.GetEntityWithSpec(spec);
+            if (product == null)
+                return NotFound(new ApiResponse(404));
             return _mapper.Map<Product, ProductToReturnDTO>(product);
 
         }
