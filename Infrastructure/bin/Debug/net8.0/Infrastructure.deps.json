@@ -2160,8 +2160,7 @@
         },
         "runtime": {
           "Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": ""
+            "fileVersion": "0.0.0.0"
           }
         }
       }

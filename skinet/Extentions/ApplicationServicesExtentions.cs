@@ -28,6 +28,15 @@ namespace API.Extentions
                     return new BadRequestObjectResult(errorResponse);
                 };
             });
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+                });
+            });
             return services;
         }
     }

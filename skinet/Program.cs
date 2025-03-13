@@ -1,14 +1,8 @@
-using API.Errors;
 using API.Extentions;
 using API.Helpers;
 using API.Middleware;
-using core.Interfaces;
 using Infrastructure.Data;
-using Infrastructure.Data.Repos;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
-using System.Linq.Expressions;
 
 namespace skinet
 {
@@ -30,7 +24,6 @@ namespace skinet
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerDocumentation();
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -55,7 +48,7 @@ namespace skinet
             app.UseStaticFiles();
 
 
-                app.Run();
+            app.Run();
             }
     }
     }

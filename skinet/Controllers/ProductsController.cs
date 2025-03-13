@@ -27,17 +27,21 @@ namespace skinet.Controllers
             _productBrandRepo = ProductBrandRepo;
             _productTypeRepo = ProductTyperepo;
         }
+
+
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetProducts(string? sort, int? brandId, int? typeId)
         {
-            var spec = new ProductWithTypesAndBrandsSpecification();
+            var spec = new ProductWithTypesAndBrandsSpecification(sort, brandId, typeId);
             var products = await _productRepo.ListAsync(spec);
             return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products));
         }
+
+
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound )]
-        public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int id)
+        public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int id, int? brandId, int? typeId)
         {
             var spec = new ProductWithTypesAndBrandsSpecification(id);
 
@@ -48,11 +52,15 @@ namespace skinet.Controllers
             return _mapper.Map<Product, ProductToReturnDTO>(product);
 
         }
+
+
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
         {
             return Ok(await _productBrandRepo.GetAllAsync());
         }
+
+
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
         {

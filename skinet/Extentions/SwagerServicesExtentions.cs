@@ -23,6 +23,7 @@ namespace API.Extentions
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "SliNet API v1");
                 }
                 );
+            app.UseCors();  
             return app;
         }
     }

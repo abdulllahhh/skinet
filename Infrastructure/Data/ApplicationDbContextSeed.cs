@@ -16,12 +16,21 @@ namespace Infrastructure.Data
         {
             try
             {
-               
+                if (!context.Types.Any())
+                {
+                    var typesData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\types.json");
+                    var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
+                    foreach (var item in types)
+                    {
+                        context.Types.Add(item);
+                    }
+                    await context.SaveChangesAsync();
+                }
                 if (!context.Products.Any())
                 {
-                    var ProductsData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\products.json");
-                    var Products = JsonSerializer.Deserialize<List<Product>>(ProductsData);
-                    foreach (var item in Products)
+                    var productsData = File.ReadAllText("..\\Infrastructure\\Data\\SeedData\\products.json");
+                    var products = JsonSerializer.Deserialize<List<Product>>(productsData);
+                    foreach (var item in products)
                     {
                         context.Products.Add(item);
                     }
