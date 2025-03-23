@@ -1,3 +1,14 @@
-<h1 class="text-3xl font-bold underline">
-  Welcom to {{ title }}!
-</h1>
+<app-header></app-header>
+<div class="container mt-6">
+    <h2 class="text-3xl font-bold underline">Welcome to the Angular 10 CRUD App!
+    </h2>
+    <ul class="mt-4">
+        @for(product of products; track product.id){
+            <li class="mt-2">
+                <a>
+                    {{ product.name }}
+                </a>
+            </li>
+        }
+    </ul>
+</div>

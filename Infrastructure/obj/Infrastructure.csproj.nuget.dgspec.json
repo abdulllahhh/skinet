@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj": {
-                "projectPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj"
+              "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj": {
+                "projectPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj"
               }
             }
           }

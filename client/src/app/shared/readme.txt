@@ -1,0 +1,1 @@
+And this one's going to be responsible for things like our shared components or directives or models.

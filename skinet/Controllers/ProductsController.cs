@@ -44,13 +44,10 @@ namespace skinet.Controllers
         public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int id, int? brandId, int? typeId)
         {
             var spec = new ProductWithTypesAndBrandsSpecification(id);
-
-
             var product = await _productRepo.GetEntityWithSpec(spec);
             if (product == null)
                 return NotFound(new ApiResponse(404));
             return _mapper.Map<Product, ProductToReturnDTO>(product);
-
         }
 
 
@@ -59,7 +56,6 @@ namespace skinet.Controllers
         {
             return Ok(await _productBrandRepo.GetAllAsync());
         }
-
 
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()

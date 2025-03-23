@@ -32,9 +32,13 @@ namespace API.Extentions
             {
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
-                    policy.AllowAnyOrigin()
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
+                     policy.AllowAnyOrigin() // Allow Angular app
+                        .AllowAnyMethod()  // Allow GET, POST, PUT, DELETE
+                        .AllowAnyHeader()  // Allow all headers
+                        .AllowCredentials() // Allow cookies/auth headers
+                        .SetIsOriginAllowedToAllowWildcardSubdomains()
+                        .DisallowCredentials();
+
                 });
             });
             return services;
