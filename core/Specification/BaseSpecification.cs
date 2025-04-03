@@ -7,46 +7,66 @@ using System.Threading.Tasks;
 
 namespace core.Specification
 {
-
-
-    public class BaseSpecification<T> : ISpecification<T>
+    public class BaseSpecification<T>(Expression<Func<T, bool>>? criteria) : ISpecification<T>
     {
-        public BaseSpecification() { }
-        public BaseSpecification(Expression<Func<T,bool>> criteria)
-        {
-            Criteria = criteria;
-        }
-        public Expression<Func<T, bool>> Criteria { get; }
+        protected BaseSpecification() : this(null) { }
 
-        public List<Expression<Func<T, object>>> Includes { get; } = new List<Expression<Func<T, object>>>();
+        public Expression<Func<T, bool>>? Criteria => criteria;
 
-        public Expression<Func<T, object>> OrderBy { get; private set; }
+        public Expression<Func<T, object>>? OrderBy { get; private set; }
 
-        public Expression<Func<T, object>> OrderByDecending { get; private set; }
+        public Expression<Func<T, object>>? OrderByDescending { get; private set; }
+
+        public bool IsDistinct { get; private set; }
 
         public int Take { get; private set; }
 
         public int Skip { get; private set; }
 
-        public int isPagingEnabled { get; private set; }
+        public bool IsPagingEnabled { get; private set; }
 
-        protected void AddInclude(Expression<Func<T, object>> include)
+        public IQueryable<T> ApplyCriteria(IQueryable<T> query)
         {
-            Includes.Add(include); 
+            if (Criteria != null)
+            {
+                query = query.Where(Criteria);
+            }
+
+            return query;
         }
+
         protected void AddOrderBy(Expression<Func<T, object>> orderByExpression)
         {
             OrderBy = orderByExpression;
         }
-        protected void AddOrderByDec(Expression<Func<T, object>> orderByDecExpression)
+
+        protected void AddOrderByDescending(Expression<Func<T, object>> orderByDescExpression)
         {
-            OrderByDecending = orderByDecExpression;
+            OrderByDescending = orderByDescExpression;
         }
+
+        protected void ApplyDistinct()
+        {
+            IsDistinct = true;
+        }
+
         protected void ApplyPaging(int skip, int take)
         {
             Skip = skip;
             Take = take;
-            isPagingEnabled = 1;
+            IsPagingEnabled = true;
+        }
+    }
+
+    public class BaseSpecification<T, TResult>(Expression<Func<T, bool>> criteria)
+        : BaseSpecification<T>(criteria), ISpecification<T, TResult>
+    {
+        protected BaseSpecification() : this(null!) { }
+        public Expression<Func<T, TResult>>? Select { get; private set; }
+
+        protected void AddSelect(Expression<Func<T, TResult>> selectExpression)
+        {
+            Select = selectExpression;
         }
     }
 }

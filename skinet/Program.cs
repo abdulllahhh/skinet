@@ -26,10 +26,10 @@ namespace skinet
             builder.Services.AddSwaggerDocumentation();
             var app = builder.Build();
 
+            
             // Configure the HTTP request pipeline.
 
             app.UseDeveloperExceptionPage();
-            app.UseMiddleware<ExceptionMiddleware>();
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
 

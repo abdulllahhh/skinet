@@ -1,4 +1,5 @@
-﻿using API.Errors;
+﻿using API.DTOs;
+using API.Errors;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,41 +7,32 @@ namespace API.Controllers
 {
     public class BuggyController : BaseApiController
     {
-        private readonly ApplicationDbContext _context;
-
-        public BuggyController(ApplicationDbContext context)
+        [HttpGet("unauthorized")]
+        public IActionResult GetUnauthorized()
         {
-            _context = context;
-        }
-
-        [HttpGet("notfound")]
-        public ActionResult GetNotFoundRequest()
-        {
-            var thing = _context.Products.Find(42);
-
-            if (thing == null) return NotFound(new ApiResponse(404));
-
-            return Ok();
-        }
-
-        [HttpGet("servererror")]
-        public ActionResult GetServerError()
-        {
-            var thing = _context.Products.Find(42);
-
-            var thingToReturn = thing.ToString();
-
-            return Ok();
+            return Unauthorized();
         }
 
         [HttpGet("badrequest")]
-        public ActionResult GetBadRequest()
+        public IActionResult GetBadRequest()
         {
-            return BadRequest(new ApiResponse(400));
+            return BadRequest("Not a good request");
         }
 
-        [HttpGet("badrequest/{id}")]
-        public ActionResult GetNotFoundRequest(int id)
+        [HttpGet("notfound")]
+        public IActionResult GetNotFound()
+        {
+            return NotFound();
+        }
+
+        [HttpGet("internalerror")]
+        public IActionResult GetInternalError()
+        {
+            throw new Exception("This is a test exception");
+        }
+
+        [HttpPost("validationerror")]
+        public IActionResult GetValidationError(CreateProductDto product)
         {
             return Ok();
         }

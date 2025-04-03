@@ -1,6 +1,30 @@
 {
   "Files": [
     {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero1.jpg"
+    },
+    {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero2.jpg"
+    },
+    {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero3.jpg",
+      "PackagePath": "staticwebassets\\images\\hero3.jpg"
+    },
+    {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero4.png",
+      "PackagePath": "staticwebassets\\images\\hero4.png"
+    },
+    {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\images\\placeholder.png"
+    },
+    {
       "Id": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
       "PackagePath": "staticwebassets\\images\\products\\boot-ang1.png"
     },

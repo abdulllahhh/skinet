@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eAoF9hp8kpnpyCsKJ9wfsyUZXab4dkSOZgjjKJztuqo=",
+  "Hash": "pM+g9CrfYg5KVeMiKV5mye0qbeaMM8TmhTaEnE8nJOY=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -17,6 +17,132 @@
   ],
   "Assets": [
     {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero1.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/hero1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g8nky98ym",
+      "Integrity": "d4nhDKcufr7XqaDSnx+kvJIxBFoh4puIFGlycTpA2bA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero1.jpg"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero2.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/hero2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9em09a7zx9",
+      "Integrity": "n0391eC+9n7B0UKkKC55ahWPSUD2y4Pw138J+AVL49I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero2.jpg"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero3.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/hero3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gx8rvylj2y",
+      "Integrity": "9LzMu0OQmYpTTnDTrl2gJTzxvzE212i8QbBn2eFSdHs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero3.jpg"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero4.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/hero4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g0irkbzfu4",
+      "Integrity": "ENxzx9mDk3m14/LV0fCueD4p9ZR7Oag3eZ6fiB8+LCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero4.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\logo.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6d1rl17od",
+      "Integrity": "Cjjz/ArK6GJfh5KQHw5hd7fS5+DboxcI8iobjQTSXh8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\placeholder.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/placeholder#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dlbf4ut9r1",
+      "Integrity": "cbSUJUb5Tn92vGh9Fu4FaHmZGa727gSGcExC2DQ9DdY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
+    },
+    {
       "Identity": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
@@ -31,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "frtmm817eo",
-      "Integrity": "1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=",
+      "Fingerprint": "e7vhuam157",
+      "Integrity": "xmGtQ/ov0kvlvjTxjF9FbnCgf05e4PKRHqDHqygKASA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
@@ -52,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l2b72r3nnt",
-      "Integrity": "M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=",
+      "Fingerprint": "g3mx7ghjao",
+      "Integrity": "5JoBm+7SQMe5qjPglK+I3AIeVHm+RjNhKeX4YVIJ0UE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
@@ -73,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "owma62f65w",
-      "Integrity": "eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=",
+      "Fingerprint": "u5gzcfuhld",
+      "Integrity": "bntkuUAVHMq5IpXPbleh2W0/5XFH8yL1PES4OI6xujE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
@@ -94,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "et6a9ksqoo",
-      "Integrity": "/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=",
+      "Fingerprint": "vl8j47b4zz",
+      "Integrity": "rZ2jNXEVhyKB36Yhn5iDuBOhpfliJ7uGZurMIiJIDpE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
@@ -115,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w9hxokgnuo",
-      "Integrity": "tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=",
+      "Fingerprint": "ujsmkc6cge",
+      "Integrity": "9iESOyK6uUzBgEPtBEwDtB1jtjmsjIrHo59OeB4hKfc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
@@ -136,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vfxg5rk1bq",
-      "Integrity": "S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=",
+      "Fingerprint": "hjatec42kt",
+      "Integrity": "Y+ezZKQv8e+sScXV38kKvFIyecmpaqly1MhG7nc0ZjU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
@@ -157,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r6vgnq84s8",
-      "Integrity": "HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=",
+      "Fingerprint": "7rfyrcpgaq",
+      "Integrity": "Q7/ac0PP9/h7b+5LDbAZwKwSJpHyRtPiIDgxJL4TcQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
@@ -178,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fll4p0n7rr",
-      "Integrity": "Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=",
+      "Fingerprint": "qkf2kkbct5",
+      "Integrity": "pjAHh5j8EH/yhJoabe6GrGacnwXLonLNfLC/rpRXc98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
@@ -199,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pnwp3ppbru",
-      "Integrity": "a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=",
+      "Fingerprint": "hleln2xgnm",
+      "Integrity": "2/NpCSssO13hKrPJOC1waB2NPE5SbK8h+CjNqm+Ecd4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
@@ -220,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i0uvoezabx",
-      "Integrity": "TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=",
+      "Fingerprint": "qjn20d7mmr",
+      "Integrity": "tiexN7PCxS9dYyouuMjWBLQgBk8COA4E0hTT2CcvV/8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
@@ -241,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hh4ccoh25u",
-      "Integrity": "tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=",
+      "Fingerprint": "ogijun3cjh",
+      "Integrity": "OK5CLuFcgddiWYp5ic3TcrA0rUki/z+mSy0rG//lvxs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
@@ -262,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mbw62g7yl7",
-      "Integrity": "IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=",
+      "Fingerprint": "wihax8artv",
+      "Integrity": "yEclijhBO1n3+Q9zq8I/uvzacJAmnlTijAyW08dvatk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
@@ -283,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gwbzmgtfei",
-      "Integrity": "ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=",
+      "Fingerprint": "lvxtg3kj4t",
+      "Integrity": "P7Oc7lggp3Hn1PuEwu+JtdLydAzWdRbDS3voKgPiKcI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
@@ -304,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h3w3sxuihj",
-      "Integrity": "wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=",
+      "Fingerprint": "sz22xe7sgv",
+      "Integrity": "qKSIjAnNZ/Zjj0OkYkvTs2nJ3fH9malZElrh3fm9Ib0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
@@ -325,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sgdiotq3ie",
-      "Integrity": "rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=",
+      "Fingerprint": "1035sj0izl",
+      "Integrity": "jxlt8U+vPLTIU3PS5FlTiU7bn7R3JBx/aAVWtT2lnms=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
@@ -346,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0l58ukt1bp",
-      "Integrity": "vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=",
+      "Fingerprint": "drwp5gg2x0",
+      "Integrity": "56h00EwFZBT2XniIdWyg5+AlZSjwvVljxjhnBSLnLM0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
@@ -367,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v6om9glro4",
-      "Integrity": "CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=",
+      "Fingerprint": "6zxvxdfvuf",
+      "Integrity": "Pn3LLLyW2wjuF7f5HCEZrQblg03YCqxSX7QLsMHTuRM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
@@ -388,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uty9dayw0j",
-      "Integrity": "ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=",
+      "Fingerprint": "oybcq84912",
+      "Integrity": "kMGtFCtEzbVNQkb1UmqmtHrzRvKCBiLOjnhlzKkQq1E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
@@ -397,8 +523,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "images/products/boot-ang1.frtmm817eo.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
+      "Route": "images/hero1.9g8nky98ym.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -407,19 +533,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59426"
+          "Value": "59881"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=\""
+          "Value": "\"d4nhDKcufr7XqaDSnx+kvJIxBFoh4puIFGlycTpA2bA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -429,7 +555,499 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "frtmm817eo"
+          "Value": "9g8nky98ym"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4nhDKcufr7XqaDSnx+kvJIxBFoh4puIFGlycTpA2bA="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero1.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4nhDKcufr7XqaDSnx+kvJIxBFoh4puIFGlycTpA2bA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4nhDKcufr7XqaDSnx+kvJIxBFoh4puIFGlycTpA2bA="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero2.9em09a7zx9.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0391eC+9n7B0UKkKC55ahWPSUD2y4Pw138J+AVL49I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9em09a7zx9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0391eC+9n7B0UKkKC55ahWPSUD2y4Pw138J+AVL49I="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero2.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0391eC+9n7B0UKkKC55ahWPSUD2y4Pw138J+AVL49I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0391eC+9n7B0UKkKC55ahWPSUD2y4Pw138J+AVL49I="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero3.gx8rvylj2y.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LzMu0OQmYpTTnDTrl2gJTzxvzE212i8QbBn2eFSdHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gx8rvylj2y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9LzMu0OQmYpTTnDTrl2gJTzxvzE212i8QbBn2eFSdHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero3.jpg",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LzMu0OQmYpTTnDTrl2gJTzxvzE212i8QbBn2eFSdHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9LzMu0OQmYpTTnDTrl2gJTzxvzE212i8QbBn2eFSdHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero4.g0irkbzfu4.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "433141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ENxzx9mDk3m14/LV0fCueD4p9ZR7Oag3eZ6fiB8+LCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0irkbzfu4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ENxzx9mDk3m14/LV0fCueD4p9ZR7Oag3eZ6fiB8+LCM="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero4.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\hero4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "433141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ENxzx9mDk3m14/LV0fCueD4p9ZR7Oag3eZ6fiB8+LCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ENxzx9mDk3m14/LV0fCueD4p9ZR7Oag3eZ6fiB8+LCM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cjjz/ArK6GJfh5KQHw5hd7fS5+DboxcI8iobjQTSXh8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cjjz/ArK6GJfh5KQHw5hd7fS5+DboxcI8iobjQTSXh8="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.y6d1rl17od.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cjjz/ArK6GJfh5KQHw5hd7fS5+DboxcI8iobjQTSXh8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6d1rl17od"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cjjz/ArK6GJfh5KQHw5hd7fS5+DboxcI8iobjQTSXh8="
+        }
+      ]
+    },
+    {
+      "Route": "images/placeholder.dlbf4ut9r1.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\placeholder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cbSUJUb5Tn92vGh9Fu4FaHmZGa727gSGcExC2DQ9DdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dlbf4ut9r1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/placeholder.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cbSUJUb5Tn92vGh9Fu4FaHmZGa727gSGcExC2DQ9DdY="
+        }
+      ]
+    },
+    {
+      "Route": "images/placeholder.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\placeholder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cbSUJUb5Tn92vGh9Fu4FaHmZGa727gSGcExC2DQ9DdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cbSUJUb5Tn92vGh9Fu4FaHmZGa727gSGcExC2DQ9DdY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-ang1.e7vhuam157.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmGtQ/ov0kvlvjTxjF9FbnCgf05e4PKRHqDHqygKASA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e7vhuam157"
         },
         {
           "Name": "label",
@@ -437,7 +1055,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg="
+          "Value": "sha256-xmGtQ/ov0kvlvjTxjF9FbnCgf05e4PKRHqDHqygKASA="
         }
       ]
     },
@@ -452,7 +1070,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59426"
+          "Value": "332168"
         },
         {
           "Name": "Content-Type",
@@ -460,11 +1078,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg=\""
+          "Value": "\"xmGtQ/ov0kvlvjTxjF9FbnCgf05e4PKRHqDHqygKASA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -474,12 +1092,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1fl1wwNx5HbNxDvufxW3+P2WdxzLAsOd3uV/eqzrYMg="
+          "Value": "sha256-xmGtQ/ov0kvlvjTxjF9FbnCgf05e4PKRHqDHqygKASA="
         }
       ]
     },
     {
-      "Route": "images/products/boot-ang2.l2b72r3nnt.png",
+      "Route": "images/products/boot-ang2.g3mx7ghjao.png",
       "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-ang2.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -489,7 +1107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "57326"
+          "Value": "273012"
         },
         {
           "Name": "Content-Type",
@@ -497,11 +1115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=\""
+          "Value": "\"5JoBm+7SQMe5qjPglK+I3AIeVHm+RjNhKeX4YVIJ0UE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -511,7 +1129,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l2b72r3nnt"
+          "Value": "g3mx7ghjao"
         },
         {
           "Name": "label",
@@ -519,7 +1137,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o="
+          "Value": "sha256-5JoBm+7SQMe5qjPglK+I3AIeVHm+RjNhKeX4YVIJ0UE="
         }
       ]
     },
@@ -534,7 +1152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "57326"
+          "Value": "273012"
         },
         {
           "Name": "Content-Type",
@@ -542,11 +1160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o=\""
+          "Value": "\"5JoBm+7SQMe5qjPglK+I3AIeVHm+RjNhKeX4YVIJ0UE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,52 +1174,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M04I9wyzpECkW7Lw8MRklTEo09ps7Qnd5fBJA9RGs4o="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/boot-core1.owma62f65w.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "53936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "owma62f65w"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/boot-core1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4="
+          "Value": "sha256-5JoBm+7SQMe5qjPglK+I3AIeVHm+RjNhKeX4YVIJ0UE="
         }
       ]
     },
@@ -616,7 +1189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53936"
+          "Value": "294830"
         },
         {
           "Name": "Content-Type",
@@ -624,11 +1197,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4=\""
+          "Value": "\"bntkuUAVHMq5IpXPbleh2W0/5XFH8yL1PES4OI6xujE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -638,13 +1211,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eBCT1ERyGWktttnYqTAY+sWkfW6EsoFXk8sMZx2vjF4="
+          "Value": "sha256-bntkuUAVHMq5IpXPbleh2W0/5XFH8yL1PES4OI6xujE="
         }
       ]
     },
     {
-      "Route": "images/products/boot-core2.et6a9ksqoo.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core2.png",
+      "Route": "images/products/boot-core1.u5gzcfuhld.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -653,7 +1226,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55779"
+          "Value": "294830"
         },
         {
           "Name": "Content-Type",
@@ -661,11 +1234,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=\""
+          "Value": "\"bntkuUAVHMq5IpXPbleh2W0/5XFH8yL1PES4OI6xujE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -675,15 +1248,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "et6a9ksqoo"
+          "Value": "u5gzcfuhld"
         },
         {
           "Name": "label",
-          "Value": "images/products/boot-core2.png"
+          "Value": "images/products/boot-core1.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y="
+          "Value": "sha256-bntkuUAVHMq5IpXPbleh2W0/5XFH8yL1PES4OI6xujE="
         }
       ]
     },
@@ -698,7 +1271,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55779"
+          "Value": "262676"
         },
         {
           "Name": "Content-Type",
@@ -706,11 +1279,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y=\""
+          "Value": "\"rZ2jNXEVhyKB36Yhn5iDuBOhpfliJ7uGZurMIiJIDpE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -720,7 +1293,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/gWduowBMIGxKuZgmYfYZsdxNvOp55Qb1RQbRKBqt1Y="
+          "Value": "sha256-rZ2jNXEVhyKB36Yhn5iDuBOhpfliJ7uGZurMIiJIDpE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/boot-core2.vl8j47b4zz.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-core2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZ2jNXEVhyKB36Yhn5iDuBOhpfliJ7uGZurMIiJIDpE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vl8j47b4zz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/boot-core2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZ2jNXEVhyKB36Yhn5iDuBOhpfliJ7uGZurMIiJIDpE="
         }
       ]
     },
@@ -735,7 +1353,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54530"
+          "Value": "271122"
         },
         {
           "Name": "Content-Type",
@@ -743,11 +1361,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=\""
+          "Value": "\"9iESOyK6uUzBgEPtBEwDtB1jtjmsjIrHo59OeB4hKfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -757,12 +1375,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY="
+          "Value": "sha256-9iESOyK6uUzBgEPtBEwDtB1jtjmsjIrHo59OeB4hKfc="
         }
       ]
     },
     {
-      "Route": "images/products/boot-redis1.w9hxokgnuo.png",
+      "Route": "images/products/boot-redis1.ujsmkc6cge.png",
       "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\boot-redis1.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -772,7 +1390,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54530"
+          "Value": "271122"
         },
         {
           "Name": "Content-Type",
@@ -780,11 +1398,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY=\""
+          "Value": "\"9iESOyK6uUzBgEPtBEwDtB1jtjmsjIrHo59OeB4hKfc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -794,7 +1412,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9hxokgnuo"
+          "Value": "ujsmkc6cge"
         },
         {
           "Name": "label",
@@ -802,7 +1420,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tH0qxu2yfEFxnXwn8S9eUtVEa3EGPiaY8JkfdI/L5jY="
+          "Value": "sha256-9iESOyK6uUzBgEPtBEwDtB1jtjmsjIrHo59OeB4hKfc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-code1.hjatec42kt.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "372854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y+ezZKQv8e+sScXV38kKvFIyecmpaqly1MhG7nc0ZjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjatec42kt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-code1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y+ezZKQv8e+sScXV38kKvFIyecmpaqly1MhG7nc0ZjU="
         }
       ]
     },
@@ -817,7 +1480,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58957"
+          "Value": "372854"
         },
         {
           "Name": "Content-Type",
@@ -825,11 +1488,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=\""
+          "Value": "\"Y+ezZKQv8e+sScXV38kKvFIyecmpaqly1MhG7nc0ZjU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -839,13 +1502,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw="
+          "Value": "sha256-Y+ezZKQv8e+sScXV38kKvFIyecmpaqly1MhG7nc0ZjU="
         }
       ]
     },
     {
-      "Route": "images/products/glove-code1.vfxg5rk1bq.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code1.png",
+      "Route": "images/products/glove-code2.7rfyrcpgaq.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -854,7 +1517,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58957"
+          "Value": "327712"
         },
         {
           "Name": "Content-Type",
@@ -862,11 +1525,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw=\""
+          "Value": "\"Q7/ac0PP9/h7b+5LDbAZwKwSJpHyRtPiIDgxJL4TcQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -876,15 +1539,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vfxg5rk1bq"
+          "Value": "7rfyrcpgaq"
         },
         {
           "Name": "label",
-          "Value": "images/products/glove-code1.png"
+          "Value": "images/products/glove-code2.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S/5JPcBtgWQcX+7i5rWX0TmlNJQDs5+ZqVe95i91uVw="
+          "Value": "sha256-Q7/ac0PP9/h7b+5LDbAZwKwSJpHyRtPiIDgxJL4TcQQ="
         }
       ]
     },
@@ -899,7 +1562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59388"
+          "Value": "327712"
         },
         {
           "Name": "Content-Type",
@@ -907,11 +1570,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=\""
+          "Value": "\"Q7/ac0PP9/h7b+5LDbAZwKwSJpHyRtPiIDgxJL4TcQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -921,97 +1584,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/glove-code2.r6vgnq84s8.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-code2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "59388"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6vgnq84s8"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/glove-code2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HV/0eZhej+Or92UjD99eiK1VtEGPH/Ur7yaoEnzBLAc="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/glove-react1.fll4p0n7rr.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "64130"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fll4p0n7rr"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/glove-react1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo="
+          "Value": "sha256-Q7/ac0PP9/h7b+5LDbAZwKwSJpHyRtPiIDgxJL4TcQQ="
         }
       ]
     },
@@ -1026,7 +1599,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64130"
+          "Value": "327292"
         },
         {
           "Name": "Content-Type",
@@ -1034,11 +1607,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo=\""
+          "Value": "\"pjAHh5j8EH/yhJoabe6GrGacnwXLonLNfLC/rpRXc98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1048,7 +1621,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Uy/JU5bQ1C4U4IqNJ8d9tB6Fb4TaewlbGdzFgy0+3Bo="
+          "Value": "sha256-pjAHh5j8EH/yhJoabe6GrGacnwXLonLNfLC/rpRXc98="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react1.qkf2kkbct5.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "327292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pjAHh5j8EH/yhJoabe6GrGacnwXLonLNfLC/rpRXc98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qkf2kkbct5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-react1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pjAHh5j8EH/yhJoabe6GrGacnwXLonLNfLC/rpRXc98="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/glove-react2.hleln2xgnm.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2/NpCSssO13hKrPJOC1waB2NPE5SbK8h+CjNqm+Ecd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hleln2xgnm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/glove-react2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2/NpCSssO13hKrPJOC1waB2NPE5SbK8h+CjNqm+Ecd4="
         }
       ]
     },
@@ -1063,7 +1726,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "61470"
+          "Value": "428604"
         },
         {
           "Name": "Content-Type",
@@ -1071,11 +1734,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=\""
+          "Value": "\"2/NpCSssO13hKrPJOC1waB2NPE5SbK8h+CjNqm+Ecd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1085,97 +1748,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/glove-react2.pnwp3ppbru.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\glove-react2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "61470"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pnwp3ppbru"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/glove-react2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-a1duj0BbX9X4+JiToNtLYhmzAqhxe9gzoaidFh70SvE="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/hat-core1.i0uvoezabx.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-core1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "60114"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i0uvoezabx"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/hat-core1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8="
+          "Value": "sha256-2/NpCSssO13hKrPJOC1waB2NPE5SbK8h+CjNqm+Ecd4="
         }
       ]
     },
@@ -1190,7 +1763,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60114"
+          "Value": "332796"
         },
         {
           "Name": "Content-Type",
@@ -1198,11 +1771,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8=\""
+          "Value": "\"tiexN7PCxS9dYyouuMjWBLQgBk8COA4E0hTT2CcvV/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1212,13 +1785,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TpZgWUMnyZ+mgLBt+fGpLoetZ1QKQOii0Hi6HI00Xr8="
+          "Value": "sha256-tiexN7PCxS9dYyouuMjWBLQgBk8COA4E0hTT2CcvV/8="
         }
       ]
     },
     {
-      "Route": "images/products/hat-react1.hh4ccoh25u.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react1.png",
+      "Route": "images/products/hat-core1.qjn20d7mmr.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-core1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1227,7 +1800,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "52112"
+          "Value": "332796"
         },
         {
           "Name": "Content-Type",
@@ -1235,11 +1808,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=\""
+          "Value": "\"tiexN7PCxS9dYyouuMjWBLQgBk8COA4E0hTT2CcvV/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1249,7 +1822,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hh4ccoh25u"
+          "Value": "qjn20d7mmr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/hat-core1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tiexN7PCxS9dYyouuMjWBLQgBk8COA4E0hTT2CcvV/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/hat-react1.ogijun3cjh.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK5CLuFcgddiWYp5ic3TcrA0rUki/z+mSy0rG//lvxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ogijun3cjh"
         },
         {
           "Name": "label",
@@ -1257,7 +1875,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE="
+          "Value": "sha256-OK5CLuFcgddiWYp5ic3TcrA0rUki/z+mSy0rG//lvxs="
         }
       ]
     },
@@ -1272,7 +1890,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "52112"
+          "Value": "266248"
         },
         {
           "Name": "Content-Type",
@@ -1280,11 +1898,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE=\""
+          "Value": "\"OK5CLuFcgddiWYp5ic3TcrA0rUki/z+mSy0rG//lvxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1294,52 +1912,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tR3VthVhmp9YWaK/maHC9ifRbgGfeY9INxwCpjAlpcE="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/hat-react2.mbw62g7yl7.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "53040"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mbw62g7yl7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/hat-react2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY="
+          "Value": "sha256-OK5CLuFcgddiWYp5ic3TcrA0rUki/z+mSy0rG//lvxs="
         }
       ]
     },
@@ -1354,7 +1927,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53040"
+          "Value": "374444"
         },
         {
           "Name": "Content-Type",
@@ -1362,11 +1935,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY=\""
+          "Value": "\"yEclijhBO1n3+Q9zq8I/uvzacJAmnlTijAyW08dvatk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1376,13 +1949,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IlthxSMkGr9uB6lG3Y7DYHPLD2deKm8HdNRFQEJlztY="
+          "Value": "sha256-yEclijhBO1n3+Q9zq8I/uvzacJAmnlTijAyW08dvatk="
         }
       ]
     },
     {
-      "Route": "images/products/sb-ang1.gwbzmgtfei.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang1.png",
+      "Route": "images/products/hat-react2.wihax8artv.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\hat-react2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1391,7 +1964,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55271"
+          "Value": "374444"
         },
         {
           "Name": "Content-Type",
@@ -1399,11 +1972,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=\""
+          "Value": "\"yEclijhBO1n3+Q9zq8I/uvzacJAmnlTijAyW08dvatk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1413,7 +1986,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gwbzmgtfei"
+          "Value": "wihax8artv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/hat-react2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yEclijhBO1n3+Q9zq8I/uvzacJAmnlTijAyW08dvatk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang1.lvxtg3kj4t.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P7Oc7lggp3Hn1PuEwu+JtdLydAzWdRbDS3voKgPiKcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lvxtg3kj4t"
         },
         {
           "Name": "label",
@@ -1421,7 +2039,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo="
+          "Value": "sha256-P7Oc7lggp3Hn1PuEwu+JtdLydAzWdRbDS3voKgPiKcI="
         }
       ]
     },
@@ -1436,7 +2054,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55271"
+          "Value": "171630"
         },
         {
           "Name": "Content-Type",
@@ -1444,11 +2062,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo=\""
+          "Value": "\"P7Oc7lggp3Hn1PuEwu+JtdLydAzWdRbDS3voKgPiKcI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1458,52 +2076,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ADPYE/6DOXGzPApcXdCH6ymuZs2y0qpx6xaaKGZ+Yxo="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/sb-ang2.h3w3sxuihj.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55618"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h3w3sxuihj"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/sb-ang2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE="
+          "Value": "sha256-P7Oc7lggp3Hn1PuEwu+JtdLydAzWdRbDS3voKgPiKcI="
         }
       ]
     },
@@ -1518,7 +2091,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55618"
+          "Value": "163876"
         },
         {
           "Name": "Content-Type",
@@ -1526,11 +2099,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE=\""
+          "Value": "\"qKSIjAnNZ/Zjj0OkYkvTs2nJ3fH9malZElrh3fm9Ib0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1540,7 +2113,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wxqfeAC4XyTbu2bL15PVlx7G3fyhbo7N+KONBFS8bxE="
+          "Value": "sha256-qKSIjAnNZ/Zjj0OkYkvTs2nJ3fH9malZElrh3fm9Ib0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-ang2.sz22xe7sgv.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ang2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qKSIjAnNZ/Zjj0OkYkvTs2nJ3fH9malZElrh3fm9Ib0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sz22xe7sgv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-ang2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qKSIjAnNZ/Zjj0OkYkvTs2nJ3fH9malZElrh3fm9Ib0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-core1.1035sj0izl.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jxlt8U+vPLTIU3PS5FlTiU7bn7R3JBx/aAVWtT2lnms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1035sj0izl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-core1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jxlt8U+vPLTIU3PS5FlTiU7bn7R3JBx/aAVWtT2lnms="
         }
       ]
     },
@@ -1555,7 +2218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54855"
+          "Value": "177908"
         },
         {
           "Name": "Content-Type",
@@ -1563,11 +2226,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=\""
+          "Value": "\"jxlt8U+vPLTIU3PS5FlTiU7bn7R3JBx/aAVWtT2lnms=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1577,57 +2240,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4="
+          "Value": "sha256-jxlt8U+vPLTIU3PS5FlTiU7bn7R3JBx/aAVWtT2lnms="
         }
       ]
     },
     {
-      "Route": "images/products/sb-core1.sgdiotq3ie.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54855"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sgdiotq3ie"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/sb-core1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rCBVIoCjd/ZFjMtaFxw86anCv+BNrDjEye3sK4ReBs4="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/sb-core2.0l58ukt1bp.png",
+      "Route": "images/products/sb-core2.drwp5gg2x0.png",
       "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-core2.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1637,7 +2255,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55668"
+          "Value": "191930"
         },
         {
           "Name": "Content-Type",
@@ -1645,11 +2263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=\""
+          "Value": "\"56h00EwFZBT2XniIdWyg5+AlZSjwvVljxjhnBSLnLM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1659,7 +2277,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0l58ukt1bp"
+          "Value": "drwp5gg2x0"
         },
         {
           "Name": "label",
@@ -1667,7 +2285,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw="
+          "Value": "sha256-56h00EwFZBT2XniIdWyg5+AlZSjwvVljxjhnBSLnLM0="
         }
       ]
     },
@@ -1682,7 +2300,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55668"
+          "Value": "191930"
         },
         {
           "Name": "Content-Type",
@@ -1690,11 +2308,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw=\""
+          "Value": "\"56h00EwFZBT2XniIdWyg5+AlZSjwvVljxjhnBSLnLM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1704,7 +2322,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vHMSM7FvLTuzWIl/wP2IDMuS9gXl7SYt+9pxb7C5SLw="
+          "Value": "sha256-56h00EwFZBT2XniIdWyg5+AlZSjwvVljxjhnBSLnLM0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sb-react1.6zxvxdfvuf.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-react1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pn3LLLyW2wjuF7f5HCEZrQblg03YCqxSX7QLsMHTuRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zxvxdfvuf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sb-react1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pn3LLLyW2wjuF7f5HCEZrQblg03YCqxSX7QLsMHTuRM="
         }
       ]
     },
@@ -1719,7 +2382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55258"
+          "Value": "128908"
         },
         {
           "Name": "Content-Type",
@@ -1727,11 +2390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=\""
+          "Value": "\"Pn3LLLyW2wjuF7f5HCEZrQblg03YCqxSX7QLsMHTuRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1741,13 +2404,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8="
+          "Value": "sha256-Pn3LLLyW2wjuF7f5HCEZrQblg03YCqxSX7QLsMHTuRM="
         }
       ]
     },
     {
-      "Route": "images/products/sb-react1.v6om9glro4.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-react1.png",
+      "Route": "images/products/sb-ts1.oybcq84912.png",
+      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ts1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1756,7 +2419,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55258"
+          "Value": "202864"
         },
         {
           "Name": "Content-Type",
@@ -1764,11 +2427,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8=\""
+          "Value": "\"kMGtFCtEzbVNQkb1UmqmtHrzRvKCBiLOjnhlzKkQq1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1778,15 +2441,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v6om9glro4"
+          "Value": "oybcq84912"
         },
         {
           "Name": "label",
-          "Value": "images/products/sb-react1.png"
+          "Value": "images/products/sb-ts1.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CeNpnt+uMcOrda1nUFMfiRyvjAinnL38RLuopDJSZZ8="
+          "Value": "sha256-kMGtFCtEzbVNQkb1UmqmtHrzRvKCBiLOjnhlzKkQq1E="
         }
       ]
     },
@@ -1801,7 +2464,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51763"
+          "Value": "202864"
         },
         {
           "Name": "Content-Type",
@@ -1809,11 +2472,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=\""
+          "Value": "\"kMGtFCtEzbVNQkb1UmqmtHrzRvKCBiLOjnhlzKkQq1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
+          "Value": "Thu, 13 Mar 2025 13:50:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1823,52 +2486,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/sb-ts1.uty9dayw0j.png",
-      "AssetFile": "E:\\.net cources\\e-commerce App\\Development\\skinet\\skinet\\wwwroot\\images\\products\\sb-ts1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51763"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 21:05:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uty9dayw0j"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/sb-ts1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ks2CVqLGuhJOZf88ntdH08aK/MvNLCHCcBc2BZQyTgU="
+          "Value": "sha256-kMGtFCtEzbVNQkb1UmqmtHrzRvKCBiLOjnhlzKkQq1E="
         }
       ]
     }

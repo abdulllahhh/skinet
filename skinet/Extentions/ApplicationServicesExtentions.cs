@@ -13,21 +13,6 @@ namespace API.Extentions
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(MappingProfiles));
-            services.Configure<ApiBehaviorOptions>(options =>
-            {
-                options.InvalidModelStateResponseFactory = actionContext =>
-                {
-                    var errors = actionContext.ModelState
-                        .Where(e => e.Value.Errors.Count > 0)
-                        .SelectMany(x => x.Value.Errors)
-                        .Select(x => x.ErrorMessage).ToArray();
-                    var errorResponse = new ApiValidationErrorResponse
-                    {
-                        Errors = errors
-                    };
-                    return new BadRequestObjectResult(errorResponse);
-                };
-            });
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", policy =>
@@ -41,6 +26,7 @@ namespace API.Extentions
 
                 });
             });
+
             return services;
         }
     }

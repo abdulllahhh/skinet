@@ -15,11 +15,11 @@ namespace API.Helpers
 
         public string Resolve(Product source, ProductToReturnDTO destination, string destMember, ResolutionContext context)
         {
-             if(!string.IsNullOrEmpty(source.PictureURL))
-             {
-                return _config["ApiUrl"] + source.PictureURL;
-             }
-             return "null";
+            if (!string.IsNullOrEmpty(source.PictureUrl))
+            {
+                return "https://localhost:5001/" + source.PictureUrl;
+            }
+            return "null";
         }
     }
 }

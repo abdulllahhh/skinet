@@ -1,13 +1,25 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿using API.Helpers;
+using core.Entities;
+using core.Interfaces;
+using core.Specification;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [EnableCors()]
     public class BaseApiController : ControllerBase
     {
+        protected async Task<ActionResult> CreatePagedResult<T>(IGenericRepository<T> repo,
+            ISpecification<T> spec, int pageIndex, int pageSize) where T : BaseEntity
+        {
+            var items = await repo.ListAsync(spec);
+            var count = await repo.CountAsync(spec);
 
+            var pagination = new Pagination<T>(pageIndex, pageSize, count, items);
+
+            return Ok(pagination);
+        }
     }
 }

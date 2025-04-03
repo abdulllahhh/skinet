@@ -13,12 +13,7 @@ namespace Infrastructure.Data.Config
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            
-            builder.Property(p => p.Name).HasMaxLength(100);
-            builder.HasOne(b => b.ProductBrand).WithMany()
-                .HasForeignKey(p => p.ProductBrandId);
-            builder.HasOne(t => t.ProductType).WithMany()
-                .HasForeignKey(b => b.ProductTypeId);
+
         }
     }
 }

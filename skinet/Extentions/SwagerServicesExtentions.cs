@@ -1,4 +1,5 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using API.Middleware;
+using Microsoft.OpenApi.Models;
 
 namespace API.Extentions
 {
@@ -16,6 +17,7 @@ namespace API.Extentions
         }
         public static IApplicationBuilder UseSwaggerDocumentation(this IApplicationBuilder app)
         {
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseSwagger();
             app.UseSwaggerUI(
                 c =>
