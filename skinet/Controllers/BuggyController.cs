@@ -32,9 +32,9 @@ namespace API.Controllers
         }
 
         [HttpPost("validationerror")]
-        public IActionResult GetValidationError(CreateProductDto product)
+        public IActionResult GetValidationError([FromBody] CreateProductDto product)
         {
-            return Ok();
+            return ValidationProblem();
         }
     }
 }
