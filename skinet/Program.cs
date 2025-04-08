@@ -1,8 +1,11 @@
 using API.Extentions;
 using API.Helpers;
 using API.Middleware;
+using core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 namespace skinet
 {
@@ -24,6 +27,19 @@ namespace skinet
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerDocumentation();
+            builder.Services.AddSingleton<IConnectionMultiplexer>(
+                config =>
+                {
+                    var connString = builder.Configuration.GetConnectionString("Redis");
+                    if (string.IsNullOrEmpty(connString))
+                    {
+                        throw new ArgumentNullException("Redis connection string is not configured.");
+                    }
+                    var options = ConfigurationOptions.Parse(connString,true);
+                    return ConnectionMultiplexer.Connect(options);
+                }
+                );
+            builder.Services.AddSingleton<ICartService, CartService>();
             var app = builder.Build();
 
             
