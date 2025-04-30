@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <button id="add-paragraph-btn">Add Paragraph</button>
+    <div id="content"></div>
+
+    <script>
+      const button = document.getElementById('add-paragraph-btn');
+      const contentDiv = document.getElementById('content');
+
+      button.addEventListener('click', function() {
+        // Create a new paragraph element
+        const newParagraph = document.createElement('p');
+        newParagraph.textContent = 'This is a new paragraph added to the DOM.';
+
+        // Append it to the content div
+        contentDiv.appendChild(newParagraph);
+      });
+    </script>
+  </body>
+</html>
