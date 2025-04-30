@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj": {}
+    "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj": {
+    "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj",
-        "projectName": "core",
-        "projectPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\core.csproj",
+        "projectUniqueName": "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\babda\\.nuget\\packages\\",
-        "outputPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\core\\obj\\",
+        "outputPath": "E:\\.net cources\\e-commerce App\\Development\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
