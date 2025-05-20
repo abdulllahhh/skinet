@@ -2,7 +2,7 @@
 <mat-card appearance="raised"  routerLink="/shop/{{product.id}}" class="product-card">
     <img [src]="product.pictureUrl" [alt]="product.name" class="h-48 w-full object-cover" />
     <mat-card-content>
-        <h2 class="text-xl font-bold">{{ product.name }}</h2>
+        <h2 title="{{ product.name }}" class="text-xl truncate font-bold">{{ product.name }}</h2>
         <p class="text-gray-500">{{ product.price | currency }}</p>
     </mat-card-content>
     <mat-card-actions (click)="$event.stopPropagation()">

@@ -36,14 +36,8 @@ namespace API.Extentions
         }
         public static void UpdateFromDto(this Address address, AddressDto addressDto)
         {
-            if (address == null)
-            {
-                throw new ArgumentNullException(nameof(address));
-            }
-            if (addressDto == null)
-            {
-                throw new ArgumentNullException(nameof(addressDto));
-            }
+            ArgumentNullException.ThrowIfNull(address);
+            ArgumentNullException.ThrowIfNull(addressDto);
             address.Line1 = addressDto.Line1;
             address.Line2 = addressDto.Line2;
             address.City = addressDto.City;

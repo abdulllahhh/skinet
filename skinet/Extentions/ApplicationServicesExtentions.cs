@@ -8,12 +8,12 @@ namespace API.Extentions
 {
     public static class ApplicationServicesExtentions
     {
-        public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            services.AddScoped<IProductRepository, ProductRepository>();
+            //services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(MappingProfiles));
-            services.AddCors(opt =>
+            /*services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
@@ -25,7 +25,7 @@ namespace API.Extentions
                         .DisallowCredentials();
 
                 });
-            });
+            });*/
 
             return services;
         }

@@ -1,9 +1,11 @@
 ﻿using core.Entities;
 using core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+ 
     public class CartController(ICartService cartService) : BaseApiController
     {
         [HttpGet]

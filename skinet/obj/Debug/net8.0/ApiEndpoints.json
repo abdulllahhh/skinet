@@ -1,8 +1,34 @@
 [
   {
     "ContainingType": "API.Controllers.AccountController",
+    "Method": "CreateOrUpdateAddress",
+    "RelativePath": "api/Account/address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressDto",
+        "Type": "API.DTOs.AddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "core.Entities.Address",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.AccountController",
     "Method": "GetAuthState",
-    "RelativePath": "api/Account",
+    "RelativePath": "api/Account/auth-status",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -43,17 +69,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "core.Entities.AppUser",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.BuggyController",

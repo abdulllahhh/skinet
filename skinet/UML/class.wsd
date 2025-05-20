@@ -1,0 +1,49 @@
+@startuml
+
+interface ISpecification {
+  +Criteria : Expression<Func<T, bool>>?
+  +OrderBy : Expression<Func<T, object>>?
+  +OrderByDescending : Expression<Func<T, object>>?
+  +IsDistinct : bool
+  +Take : int
+  +Skip : int
+  +IsPagingEnabled : bool
+  +ApplyCriteria(query: IQueryable<T>) : IQueryable<T>
+}
+
+interface ISpecificationResult {
+  +Select : Expression<Func<T, TResult>>?
+}
+
+class BaseSpecification {
+  -criteria : Expression<Func<T, bool>>?
+  +Criteria : Expression<Func<T, bool>>?
+  +OrderBy : Expression<Func<T, object>>?
+  +OrderByDescending : Expression<Func<T, object>>?
+  +IsDistinct : bool
+  +Take : int
+  +Skip : int
+  +IsPagingEnabled : bool
+  +ApplyCriteria(query: IQueryable<T>) : IQueryable<T>
+  #AddOrderBy(orderByExpression: Expression<Func<T, object>>)
+  #AddOrderByDescending(orderByDescExpression: Expression<Func<T, object>>)
+  #ApplyDistinct()
+  #ApplyPaging(skip: int, take: int)
+}
+
+class BaseSpecificationResult {
+  +Select : Expression<Func<T, TResult>>?
+  #AddSelect(selectExpression: Expression<Func<T, TResult>>)
+}
+
+class ProductSpecification {
+  +ProductSpecification(specParams: ProductSpecParams)
+}
+
+' Relationships without generics to avoid errors
+BaseSpecification ..|> ISpecification
+BaseSpecificationResult --|> BaseSpecification
+BaseSpecificationResult ..|> ISpecificationResult
+ProductSpecification --|> BaseSpecification
+
+@enduml

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Repos
 {
-    public class ProductRepository(ApplicationDbContext context) : IProductRepository
+    /*public class ProductRepository(ApplicationDbContext context) : IProductRepository
     {
         public void AddProduct(Product product)
         {
@@ -76,5 +76,5 @@ namespace Infrastructure.Data.Repos
         {
             context.Entry(product).State = EntityState.Modified;
         }
-    }
+    }*/
 }

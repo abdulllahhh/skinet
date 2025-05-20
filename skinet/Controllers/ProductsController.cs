@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using core.Specification;
 using API.Controllers;
 
-namespace skinet.Controllers
+namespace API.Controllers
 {
 
     [ApiController]

@@ -40,14 +40,14 @@ namespace API.Controllers
             await signInManager.SignOutAsync();
             return NoContent();
         }
-        [Authorize]
+
         [HttpGet("user-info")]
-        public async Task<ActionResult<AppUser>> GetUserInfo()
+        public async Task<ActionResult> GetUserInfo()
         {
-            if(User.Identity?.IsAuthenticated == false) return NoContent();
+            if (User.Identity?.IsAuthenticated == false) return NoContent();
 
             var user = await signInManager.UserManager.GetUserByEmailWithAddress(User);
-            if (user == null) return Unauthorized();
+
             return Ok(new
             {
                 user.FirstName,
@@ -56,7 +56,8 @@ namespace API.Controllers
                 Address = user.Address?.ToDto()
             });
         }
-        [HttpGet]
+
+        [HttpGet("auth-status")]
         public ActionResult GetAuthState()
         {
             return Ok(new

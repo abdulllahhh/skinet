@@ -8,7 +8,7 @@ using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
-namespace skinet
+namespace API
 {
     public class Program
     {
@@ -21,7 +21,7 @@ namespace skinet
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); // Use SQL Server with the connection string from configuration
             });
-            builder.Services.AddApplicationServices(builder.Configuration); // Add application services
+            builder.Services.AddApplicationServices(); // Add application services
 
             builder.Services.AddControllers(); // Add controllers to the service collection
             builder.Services.AddAutoMapper(typeof(MappingProfiles)); // Add AutoMapper with the specified mapping profiles
@@ -40,6 +40,10 @@ namespace skinet
                     return ConnectionMultiplexer.Connect(options); // Connect to Redis
                 }
                 );
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.SecurePolicy = CookieSecurePolicy.None;
+            });
             builder.Services.AddSingleton<ICartService, CartService>(); // Register the CartService as a singleton
             builder.Services.AddAuthorization(); // Add authorization services
             builder.Services.AddIdentityApiEndpoints<AppUser>() // Add identity services
@@ -53,7 +57,7 @@ namespace skinet
             app.UseDeveloperExceptionPage(); // Use developer exception page in development
             app.UseStatusCodePagesWithReExecute("/errors/{0}"); // Handle status code pages
             app.UseHttpsRedirection();  // Redirect HTTP requests to HTTPS
-
+            app.UseAuthentication();
             app.UseAuthorization(); // Use authorization middleware
             try
             {
@@ -71,10 +75,8 @@ namespace skinet
             }
 
             app.UseSwaggerDocumentation(); // Use Swagger documentation
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials() // allow any header, method, and credentials
-
-            .WithOrigins("https://localhost:4200", "http://localhost:4200") // Allow specific origins
-            ); // Use CORS policy
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials()
+                .WithOrigins("http://localhost:4200", "https://localhost:4200")); // Use CORS policy
             app.MapControllers();   // Map controllers to endpoints
             app.MapGroup("api").MapIdentityApi<AppUser>(); // Map identity API endpoints api/login, api/register, etc.
             app.UseStaticFiles();   // Serve static files

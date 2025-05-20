@@ -27,7 +27,7 @@ namespace Infrastructure.Services
 
         public async Task<ShoppingCart> SetCartAsync(ShoppingCart cart)
         {
-            var created = await _database.StringSetAsync(cart.Id, JsonSerializer.Serialize(cart), TimeSpan.FromDays(30));
+            _ = await _database.StringSetAsync(cart.Id, JsonSerializer.Serialize(cart), TimeSpan.FromDays(30));
 
             return await GetCartAsync(cart.Id) ?? throw new Exception("Problem getting the cart");
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace core.Interfaces
 {
-    public interface IProductRepository
+    /*public interface IProductRepository
     {
         Task<IReadOnlyList<Product>> GetProductsAsync(string? brand, string? type, string? sort);
         Task<Product?> GetProductByIdAsync(int id);
@@ -18,5 +18,5 @@ namespace core.Interfaces
         void DeleteProduct(Product product);
         bool ProductExists(int id);
         Task<bool> SaveChangesAsync();
-    }
+    }*/
 }
